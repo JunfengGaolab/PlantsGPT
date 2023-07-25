@@ -1,4 +1,6 @@
-# PlantsGPT
+
+<h1 align="center">PlantsGPT 💬 + code interpreter 💻 tutorials</h1>
+
 The PlantsGPT repository serves as a tutorial for people to test and share interesting prompting examples for large language models (LLMs) for plant science. We also provide two samples (metadata structuring and spectral data analysis) with ChatGPT-4 and code interpreter integration for users to get started.
 
 We currently focus on OpenAI's [GPT-4](https://openai.com/gpt-4), but we also welcome examples from other LLMs (for example open-sourced models like MetaAI's [Llama 2](https://ai.meta.com/llama/) or others with API access such as [GPT-3](https://openai.com/api/) and CodeX).
