@@ -11,12 +11,30 @@
 Once submitted, the prompt will be reviewed by the community (upvote your favorites!) and added to the repository by a team of admins if it is deemed interesting and useful.
 We encourage users to submit prompts that are interesting, fun, or useful. We also encourage users to submit prompts that are not necessarily "correct" or "optimal" but are interesting nonetheless.
 
-We encourage prompt submissions formatted as markdown, so that they can be easily transferred to the main repository. Please specify which LLM you used, and if possible provide other visuals of the model in action such as videos and pictures.
+We encourage prompt submissions formatted as markdown, so that they can be easily transferred to the main repository. Please specify which LLMs you used, and if possible provide other visuals of the model in action such as videos and pictures.
 
 
 
-## Paper, videos and citations
+## 💻 Paper, videos and citations
+Code Interpreter is an official ChatGPT [plugin](https://openai.com/blog/chatgpt-plugins) for data analytics, image conversions, editing code, and more. Since July 6th, 2023, it has been available to all ChatGPT Plus users. It provides OpenAI models with a working Python interpreter in a sandboxed, firewalled execution environment. Importantly, it is possible to upload and download files.
 
+<details close>
+<summary>👉 activate code interpreter</summary>
+
+1. Navigate to ChatGPT settings.
+
+2. Activate Code Interpreter in the "Beta features" tab.
+
+    <img width="600" src="https://github.com/SkalskiP/awesome-chatgpt-code-interpreter-experiments/assets/26109316/18fadd19-90d0-4e05-9882-6cfac8990f68">
+    
+    <br>
+    <br>
+
+3. Select GPT-4 + Code Interpreter environment.
+
+    <img width="600" src="https://github.com/SkalskiP/awesome-chatgpt-code-interpreter-experiments/assets/26109316/33e5831a-0098-4252-80ec-80d992a254aa">
+
+</details>
 
 
 Paper: <a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf" target="_blank">PlantsGPT: How LLMs will impact plant science
