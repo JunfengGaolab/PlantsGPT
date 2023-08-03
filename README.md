@@ -59,6 +59,10 @@ number = {MSR-TR-2023-8},
 
 The list below contains links to the different applications and their corresponding prompt examples in plant science. We welcome contributions to this repository to add more categories and examples in plant science. Please submit your prompt examples to the [Discussions](https://github.com/JunfengGaolab/PlantsGPT/discussions) page, or submit a pull request with your category and examples.
 
+## 💻 ChatGPT-4 + Spectral data analysis
+* [GPT4 + Code Interpreter - spectral data analysis for potato disease classification and wavelength selection](examples/embodied_agents/visual_language_navigation_1.md)
+
+
 ## 💻 ChatGPT-4 + Metadata Structuring 
 
 We provide a sample [AirSim](https://github.com/microsoft/AirSim) environment for users to test their ChatGPT prompts. The environment is a binary containing a sample inspection environment with assets such as wind turbines, electric towers, solar panels etc. The environment comes with a drone and interfaces with ChatGPT such that users can easily send commands in natural language. [[Simulator Link]](chatgpt_airsim/README.md)
