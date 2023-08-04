@@ -5,7 +5,7 @@ upload the file (spectral_0715_cls.csv)
 </b>
 
 ---
-The GPT Output:
+<b>The GPT Output:</b>
 
 
 ---
