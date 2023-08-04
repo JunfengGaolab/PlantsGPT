@@ -37,9 +37,9 @@ Code Interpreter is an official ChatGPT [plugin](https://openai.com/blog/chatgpt
 </details>
 
 
-Paper: <a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf" target="_blank">PlantsGPT: How LLMs will impact plant science
+Paper: <a href="https://www.archive_link" target="_blank">PlantsGPT: How LLMs will impact plant science
 
-# Video: <a href="https://youtu.be/NYd0QcZcS6Q" target="_blank">https://youtu.be/NYd0QcZcS6Q</a>   #
+
 
 If you use this repository in your research, please cite the following paper:
 
@@ -50,8 +50,8 @@ title = {PlantsGPT: How LLMs will impact plant science},
 institution = {University of Lincoln, UK},
 year = {2023},
 month = {February},
-url = {https://www.microsof---atgpt-for-robotics-design-principles-and-model-abilities/},
-number = {MSR-TR-2023-8},
+url = {https://archive.link},
+number = {lincoln-2023-8},
 }
 ```
 
@@ -65,7 +65,7 @@ The list below contains links to the different applications and their correspond
 
 ## 💻 ChatGPT-4 + Metadata Structuring 
 
-We provide a sample [AirSim](https://github.com/microsoft/AirSim) environment for users to test their ChatGPT prompts. The environment is a binary containing a sample inspection environment with assets such as wind turbines, electric towers, solar panels etc. The environment comes with a drone and interfaces with ChatGPT such that users can easily send commands in natural language. [[Simulator Link]](chatgpt_airsim/README.md)
+We provide a sample [MeSt](https://github.com/link) environment for users to test their ChatGPT prompts.
 
 We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 
