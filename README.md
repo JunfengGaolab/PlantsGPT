@@ -39,7 +39,7 @@ Code Interpreter is an official ChatGPT [plugin](https://openai.com/blog/chatgpt
 
 Paper: <a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf" target="_blank">PlantsGPT: How LLMs will impact plant science
 
-< Video: <a href="https://youtu.be/NYd0QcZcS6Q" target="_blank">https://youtu.be/NYd0QcZcS6Q</a>   >
+# Video: <a href="https://youtu.be/NYd0QcZcS6Q" target="_blank">https://youtu.be/NYd0QcZcS6Q</a>   #
 
 If you use this repository in your research, please cite the following paper:
 
