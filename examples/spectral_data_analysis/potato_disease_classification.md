@@ -90,7 +90,7 @@ Would you like assistance with any other aspect of your data or analysis?
 You can use other classification models but you have to consider the imbalance classes in our case
 </b>
 
--------------------------------------------------------------------------------
+-----
 <b>The GPT Output:</b>
 ```
 Absolutely, class imbalance is an important factor to consider when training a classification model. There are several strategies we can use to address this issue:
@@ -280,7 +280,7 @@ Please let me know if there's anything else you'd like to do with this data or a
 <b>
 build a metric table to list all the models you have tried and conclude which model is the best
 </b>
----------------------------------------------------------------
+---
 <b>The GPT Output:</b>
 ```
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
