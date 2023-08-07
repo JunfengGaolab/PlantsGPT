@@ -130,7 +130,12 @@ Generate the confusion matrix from the above results, labels 0 and 1 represent h
 
 ------------------------------------------------------------------------------
 <b>The GPT Output:</b>
-<img src="img/cm1.png" height="300"> 
+
+<p align="center">
+  <img src="img/cm1.png" height="300"> 
+</p>
+
+
 ```
 Here is the confusion matrix for the Random Forest Classifier model:
 
