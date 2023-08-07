@@ -276,11 +276,10 @@ Despite our efforts, improving the model's performance on the disease class is p
 Please let me know if there's anything else you'd like to do with this data or any other models you'd like to try.
 ```
 -------------------------------------------------------------------------------
-
 <b>
-build a metric table to list all the models you have tried and conclude which model is the best
+Build a metric table to list all the models you have tried and conclude which model is the best
 </b>
----
+
 <b>The GPT Output:</b>
 ```
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
@@ -304,13 +303,5 @@ Given the importance of correctly identifying disease samples, the model with th
 Please let me know if there's anything else you'd like to do with this data or any other models you'd like to try.
 ```
 -------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
 
 
