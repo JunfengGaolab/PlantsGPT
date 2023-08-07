@@ -135,6 +135,25 @@ Generate the confusion matrix from the above results, labels 0 and 1 represent h
   <img src="img/cm1.png" height="300"> 
 </p>
 
+```python
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Compute the confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Visualize the confusion matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+            xticklabels=['Healthy (0)', 'PLB Disease (1)'], 
+            yticklabels=['Healthy (0)', 'PLB Disease (1)'])
+plt.title('Confusion Matrix')
+plt.ylabel('True label')
+plt.xlabel('Predicted label')
+plt.show()
+
+```
 
 ```
 Here is the confusion matrix for the Random Forest Classifier model:
