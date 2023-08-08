@@ -167,9 +167,9 @@ This gives us a clearer picture of where the model is making mistakes. It seems 
 
 Let me know if there's anything else you'd like to do with this data or any other models you'd like to try.
 
-
 ```
 -------------------------------------------------------------------------------
+
 <b>
 False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
 </b>
@@ -221,7 +221,7 @@ I am still not happy for this result due to the bad performance for disease samp
 ```
 I understand your concerns. Detecting disease samples accurately is crucial, and we need to ensure that our model is performing well for this class.
 
-Given your requirements, I suggest trying a Gradient Boosting Classifier. Gradient Boosting is a powerful ensemble method that often performs well on imbalanced datasets. It also has a `class_weight` parameter, allowing us to give more importance to the minority class during training.
+Given your requirements, I suggest trying a Gradient Boosting Classifier. Gradient Boosting is a powerful ensemble method that often performs well on imbalanced datasets. It also has a 'class_weight' parameter, allowing us to give more importance to the minority class during training.
 
 We will also continue to use the decision threshold adjustment to increase recall for the disease class. Let's proceed with this approach.
 
@@ -282,7 +282,6 @@ Build a metric table to list all the models you have tried and conclude which mo
 -------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
--------------------------------------------------------------------------------
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
 
 Here is a summary of the models we've tried and their performance metrics:
@@ -305,4 +304,17 @@ Please let me know if there's anything else you'd like to do with this data or a
 ```
 -------------------------------------------------------------------------------
 
+<b>
+Can you include the PLSDA classification result to the above table and update the conclusion
+</b>
+--------
+<b>The GPT Output:</b>
+```
+I apologize for the confusion, but as I mentioned earlier, the PLS-DA model we initially attempted to implement did not work as expected due to the lack of support for sample weights in scikit-learn's PLSRegression model. This is why it was not included in the summary table.
+
+Unfortunately, as of my knowledge cutoff in September 2021, there isn't a straightforward implementation of weighted PLS-DA in Python. Therefore, I'm unable to provide the classification results for a weighted PLS-DA model.
+
+If you have any other requests or need further clarification, please let me know!
+```
+-------------------------
 
