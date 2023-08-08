@@ -155,6 +155,7 @@ plt.show()
 
 ```
 
+
 ```
 Here is the confusion matrix for the Random Forest Classifier model:
 
@@ -173,7 +174,8 @@ Let me know if there's anything else you'd like to do with this data or any othe
 <b>
 False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
 </b>
-------------------------------------------------------------------------------
+---
+
 <b>The GPT Output:</b>
 ```
 You're right, the high number of false negatives (Type II errors) indicates that the model is not performing well on the minority class (PLB disease). This could be particularly problematic if it's crucial to correctly identify the disease.
@@ -276,6 +278,7 @@ Despite our efforts, improving the model's performance on the disease class is p
 Please let me know if there's anything else you'd like to do with this data or any other models you'd like to try.
 ```
 -------------------------------------------------------------------------------
+
 <b>
 Build a metric table to list all the models you have tried and conclude which model is the best
 </b>
