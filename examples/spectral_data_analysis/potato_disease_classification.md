@@ -173,7 +173,7 @@ Let me know if there's anything else you'd like to do with this data or any othe
 <b>
 False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
 </b>
-
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 You're right, the high number of false negatives (Type II errors) indicates that the model is not performing well on the minority class (PLB disease). This could be particularly problematic if it's crucial to correctly identify the disease.
@@ -216,7 +216,7 @@ Please let me know if there's anything else you'd like to do with this data or a
 <b>
 I am still not happy for this result due to the bad performance for disease samples, use any models you want to improve the performace for disease samples
 </b>
-
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 I understand your concerns. Detecting disease samples accurately is crucial, and we need to ensure that our model is performing well for this class.
@@ -248,7 +248,7 @@ Would you like me to try another approach, or is there something specific you'd 
 <b>
 Increase the class weight of disease samples for the gradient boosting classifier to improve the performance
 </b>
-
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 I apologize for the confusion, but as of my last training data in September 2021, the Gradient Boosting Classifier in scikit-learn doesn't support class weights directly. This is unlike some other classifiers such as Random Forests or SVMs.
@@ -279,7 +279,7 @@ Please let me know if there's anything else you'd like to do with this data or a
 <b>
 Build a metric table to list all the models you have tried and conclude which model is the best
 </b>
-
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
