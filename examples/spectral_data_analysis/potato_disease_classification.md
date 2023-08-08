@@ -135,7 +135,7 @@ Generate the confusion matrix from the above results, labels 0 and 1 represent h
   <img src="img/cm1.png" height="300"> 
 </p>
 
-```
+```python
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -170,11 +170,11 @@ Let me know if there's anything else you'd like to do with this data or any othe
 
 ```
 -------------------------------------------------------------------------------
-
 <b>
 False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
 </b>
----
+
+------------------------------------------------------------------------------
 
 <b>The GPT Output:</b>
 ```
@@ -215,10 +215,13 @@ As you can see, the recall for the minority class has improved from 0.43 to 0.52
 Please let me know if there's anything else you'd like to do with this data or any other models you'd like to try.
 ```
 -------------------------------------------------------------------------------
+
 <b>
 I am still not happy for this result due to the bad performance for disease samples, use any models you want to improve the performace for disease samples
 </b>
+
 ------------------------------------------------------------------------------
+
 <b>The GPT Output:</b>
 ```
 I understand your concerns. Detecting disease samples accurately is crucial, and we need to ensure that our model is performing well for this class.
@@ -247,9 +250,12 @@ Would you like me to try another approach, or is there something specific you'd 
 
 ```
 -------------------------------------------------------------------------------
+
+
 <b>
 Increase the class weight of disease samples for the gradient boosting classifier to improve the performance
 </b>
+
 ------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
@@ -279,10 +285,12 @@ Please let me know if there's anything else you'd like to do with this data or a
 ```
 -------------------------------------------------------------------------------
 
+
 <b>
 Build a metric table to list all the models you have tried and conclude which model is the best
 </b>
--------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
@@ -310,7 +318,8 @@ Please let me know if there's anything else you'd like to do with this data or a
 <b>
 Can you include the PLSDA classification result to the above table and update the conclusion
 </b>
---------
+
+------------------------------------------------------------------------------
 <b>The GPT Output:</b>
 ```
 I apologize for the confusion, but as I mentioned earlier, the PLS-DA model we initially attempted to implement did not work as expected due to the lack of support for sample weights in scikit-learn's PLSRegression model. This is why it was not included in the summary table.
