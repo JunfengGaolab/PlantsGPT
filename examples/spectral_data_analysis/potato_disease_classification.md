@@ -135,7 +135,7 @@ Generate the confusion matrix from the above results, labels 0 and 1 represent h
   <img src="img/cm1.png" height="300"> 
 </p>
 
-```python
+```
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
