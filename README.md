@@ -65,9 +65,9 @@ The list below contains links to the different applications and their correspond
 
 ## 💻 ChatGPT-4 + Metadata Structuring 
 
-We provide a sample [MeSt](https://github.com/link) environment for users to test their ChatGPT prompts.
-[GPT4 - Metadata structuring](examples//metadata/metadata_structuring.md)
-We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
+
+* [GPT4 - Metadata structuring](examples//metadata/metadata_structuring.md)
+* We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 
 ## 💻 Related resources
 
