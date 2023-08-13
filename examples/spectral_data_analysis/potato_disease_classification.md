@@ -687,3 +687,37 @@ Please let me know if you'd like any further information or analysis.
 
 ```
 -------------------------
+
+<b>
+as each classification model has different set of important wavelengths, can you propose a novel algorithm to summarise the important wavelength from all of them. Ideally, the selected wavelenths should not be too close, otherwise they provide similar imformation and redundancy 
+</b>
+
+------------------------------------------------------------------------------
+
+```
+Sure, we can propose a way to select important wavelengths that considers all models and ensures the selected wavelengths are not too close to each other. Here's a simple approach:
+
+1. Rank the wavelengths in each model based on their importance scores.
+2. Combine the rankings from all models, giving equal weight to each model. For each wavelength, its final score is the sum of its rankings in all models. The lower the final score, the more important the wavelength.
+3. Sort the wavelengths based on their final scores and select the top N wavelengths, where N is the number of wavelengths you want to select.
+4. To ensure the selected wavelengths are not too close to each other, we can apply a filter that only selects a wavelength if it is at least M units away from the previously selected wavelength, where M is a threshold you can set.
+
+Let's implement this approach. For simplicity, we'll set N to 10 (we want to select the top 10 wavelengths) and M to 10 (we only select a wavelength if it's at least 10 units away from the previously selected wavelength). If you want different values for N and M, please let me know and I can adjust the code accordingly.
+
+I apologize for the confusion. It seems that the features (wavelengths) are stored as strings in the DataFrame `importances_df`. We need to convert them to integers to perform arithmetic operations. Let's correct this and proceed with the wavelength selection.
+
+Based on the approach described above, the selected wavelengths that are important for all models and at least 10 units apart from each other are: 1902, 1915, 2475, and 2499. 
+
+It appears that we were only able to select four wavelengths before running out of options that met the criteria. 
+
+Please let me know if you would like to adjust the criteria or if there is anything else you would like to do.
+
+```
+-------------------------
+
+
+
+
+
+
+
