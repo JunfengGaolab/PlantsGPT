@@ -41,6 +41,8 @@ Paper: <a href="https://www.archive_link" target="_blank">PlantsGPT: How LLMs wi
 
 
 
+<!--  
+
 If you use this repository in your research, please cite the following paper:
 
 ```
@@ -54,7 +56,7 @@ url = {https://archive.link},
 number = {lincoln-2023-8},
 }
 ```
-
+-->
 ## 💻 ChatGPT Prompting Guides & Examples
 
 The list below contains links to the different applications and their corresponding prompt examples in plant science. We welcome contributions to this repository to add more categories and examples in plant science. Please submit your prompt examples to the [Discussions](https://github.com/JunfengGaolab/PlantsGPT/discussions) page, or submit a pull request with your category and examples.
