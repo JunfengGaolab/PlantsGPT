@@ -71,6 +71,11 @@ The list below contains links to the different applications and their correspond
 * [GPT4 - Metadata structuring](examples//metadata/metadata_structuring.md)
 * We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 
+## 💻 ChatGPT-4 + Research & Education 
+
+* [GPT4 - Research & Education](examples//metadata/research_education.md)
+* We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
+
 ## 💻 Related resources
 
 Beyond the prompt examples here, we leave useful and related links to the use of large language models below:
