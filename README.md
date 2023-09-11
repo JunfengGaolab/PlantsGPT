@@ -76,7 +76,7 @@ The list below contains links to the different applications and their correspond
 * [GPT4 - Research & Education](examples//metadata/research_education.md)
 * We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 * 
-## 💻 Fine-tunning LLMs instructions for PlantsGPT Development 
+## 💻 LLMs Fine-tunning Instructions for PlantsGPT Development 
 
 * In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT.  
 
