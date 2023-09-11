@@ -507,7 +507,7 @@ Prompt 15: Can you shuffle the data split and average the results to avoid bias 
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 15:</b>
 ```
 Certainly, we can use a technique called cross-validation to get a more reliable estimate of model performance. This technique involves dividing the dataset into a number of "folds", training the model on some of these folds, and then testing it on the remaining fold. This process is repeated for each fold in the dataset, and the results are averaged.
 
@@ -560,11 +560,11 @@ Please let me know how you would like to proceed.
 
 
 <b>
-Then you can provide a table of results you have already achieved, showing the results with average values and SD values together
+Prompt 16: Then you can provide a table of results you have already achieved, showing the results with average values and SD values together
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 16:</b>
 ```
 Here is the summary of the models we've tried and their performance metrics, based on 3-fold cross-validation:
 
