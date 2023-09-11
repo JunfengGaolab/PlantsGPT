@@ -1,12 +1,12 @@
 <b>
-Imagine you are helping me process the spectral data for potato disease classification and then select a couple of important wavelengths from hundreds of wavelengths for classification. 
+Prompt 1: Imagine you are helping me process the spectral data for potato disease classification and then select a couple of important wavelengths from hundreds of wavelengths for classification. 
 Step 1:
 enable the code interpreter
 upload the file (spectral_0715_cls.csv)
 </b>
 
 ---
-<b>The GPT Output:</b>
+<b>The ChatGPT Output 1:</b>
 ```
 Great, you've uploaded a file named "spectral_0715_cls.csv". Let's start by loading the file to see its structure and contents. We can use pandas, a powerful data analysis library in Python, to do this.
 
