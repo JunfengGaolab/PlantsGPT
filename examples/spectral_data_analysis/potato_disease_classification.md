@@ -585,11 +585,11 @@ Please let me know if there's anything else you'd like to do with this data or a
 -------------------------
 
 <b>
-I would like to know the importance of wavelengths for classification, can you list a couple of important wavelengths to classify samples 
+Prompt 17: I would like to know the importance of wavelengths for classification, can you list a couple of important wavelengths to classify samples 
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 17:</b>
 ```
 Feature importance can be a very useful way to understand which variables (in this case, wavelengths) are most informative for a given model. 
 
@@ -630,10 +630,11 @@ Please let me know if you'd like any further information or analysis.
 -------------------------
 
 <b>
-How about the important wavelengths for random forest
+Prompt 18: How about the important wavelengths for random forest
 </b>
 
 ------------------------------------------------------------------------------
+<b>The ChatGPT4 Output 18:</b>
 
 ```python
 
@@ -689,11 +690,11 @@ Please let me know if you'd like any further information or analysis.
 -------------------------
 
 <b>
-As each classification model has a different set of important wavelengths, can you propose a novel algorithm to summarise the important wavelength from all of them? Ideally, the selected wavelengths should not be too close, otherwise, they provide similar information and redundancy 
+Prompt 19: As each classification model has a different set of important wavelengths, can you propose a novel algorithm to summarise the important wavelength from all of them? Ideally, the selected wavelengths should not be too close, otherwise, they provide similar information and redundancy 
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 19:</b>
 ```
 Sure, we can propose a way to select important wavelengths that considers all models and ensures the selected wavelengths are not too close to each other. Here's a simple approach:
 
@@ -716,11 +717,11 @@ Please let me know if you would like to adjust the criteria or if there is anyth
 -------------------------
 
 <b>
-The final selected wavelengths should not be close to each other, so 1902 and 1915  are too close. You need to propose a better algorithm to reselect the top 5 wavelengths from all candidates
+Prompt 20: The final selected wavelengths should not be close to each other, so 1902 and 1915  are too close. You need to propose a better algorithm to reselect the top 5 wavelengths from all candidates
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 20:</b>
 ```
 I see, you'd like the selected wavelengths to be more spread out. Here's a modified approach:
 
@@ -741,11 +742,11 @@ Please let me know if you would like to adjust the criteria or if there is anyth
 -------------------------
 
 <b>
-368 and 379 are too close to the head of wavelength range, which could bring noise, please consider this and reselect
+Prompt 21: 368 and 379 are too close to the head of wavelength range, which could bring noise, please consider this and reselect
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 21:</b>
 ```
 Understood, let's modify the algorithm to avoid selecting wavelengths that are too close to the head of the wavelength range (let's say, below 400) while ensuring that the selected wavelengths are still spread out across the spectrum. This means we'll add a condition to skip wavelengths below 400 when selecting important wavelengths. Let's implement this.
 
@@ -759,11 +760,11 @@ Please let me know if you would like to adjust the criteria or if there is anyth
 -------------------------
 
 <b>
-but 1902 and 1915 are too close, this should be avoided
+Prompt 22: But 1902 and 1915 are too close, this should be avoided
 </b>
 
 ------------------------------------------------------------------------------
-
+<b>The ChatGPT4 Output 22:</b>
 ```
 I see, you would like to avoid selecting wavelengths that are too close to each other, even if they are above the minimum threshold of 400. We can adjust our algorithm to ensure a minimum difference of M units between all selected wavelengths, not just between a wavelength and the one immediately before it. Let's implement this modification.
 
@@ -786,9 +787,9 @@ Based on the modified approach with a larger minimum distance between wavelength
 -------------------------
 
 <b>
-Using the above 5 wavelenths to rebuild the models and compare with the models with full  wavelengths, please provide a table for comparison
+Prompt 23: Using the above 5 wavelenths to rebuild the models and compare with the models with full  wavelengths, please provide a table for comparison
 </b>
-
+<b>The ChatGPT4 Output 23:</b>
 ------------------------------------------------------------------------------
 ```
 I apologize for the error. It seems we've lost the reference to our original dataset, \( X \). We need to reload the data and process it as we did earlier in order to proceed. Let's do this.
