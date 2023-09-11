@@ -1,7 +1,7 @@
 
 <h1 align="center">PlantsGPT 💬 + Code interpreter 💻 Fine-tuning tutorials</h1>
 
-## 👋 brief
+## 👋 Brief
 
 🔥🔥🔥 The PlantsGPT repository serves as a tutorial for people to test and share interesting prompting examples for large language models (LLMs) for plant science. We aim to push GPT + Code Interpreter to its limits, show you what's possible and unlock your creativity in plant science! Though our examples are based on ChatGPT4, we provide a tutorial for fine-tuning of a LLM like LlaMa to develop PlantsGPT.
 
