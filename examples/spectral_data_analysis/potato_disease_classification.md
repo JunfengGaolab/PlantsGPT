@@ -6,7 +6,7 @@ upload the file (spectral_0715_cls.csv)
 </b>
 
 ---
-<b>The ChatGPT Output 1:</b>
+<b>The ChatGPT4 Output 1:</b>
 ```
 Great, you've uploaded a file named "spectral_0715_cls.csv". Let's start by loading the file to see its structure and contents. We can use pandas, a powerful data analysis library in Python, to do this.
 
@@ -25,11 +25,11 @@ Is there a specific analysis or operation you would like to perform on this data
 ```
 -------------------------------------------------------------------------------
 <b>
-Can you build a weighted PLSDA model to do classification?
+Prompt 2: Can you build a weighted PLSDA model to do classification?
 </b>
 
 -------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 2:</b>
 ```
 Sure, we can use a Partial Least Squares Discriminant Analysis (PLS-DA) model for classification. However, as of my knowledge cutoff in September 2021, there isn't a direct implementation for weighted PLS-DA in popular Python libraries like scikit-learn. 
 
@@ -69,11 +69,11 @@ Alternatively, we could proceed with the unweighted PLS-DA model and see how it 
 -------------------------------------------------------------------------------
 
 <b>
-No, please continue to work with weighted PLSDA and provide me the classification results
+Prompt 3: No, please continue to work with weighted PLSDA and provide me the classification results
 </b>
 
 -------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 3:</b>
 ```
 I apologize for the confusion earlier. Indeed, as of my training cutoff in September 2021, Python's scikit-learn library does not provide a direct implementation of a weighted PLS-DA model.
 
@@ -87,11 +87,11 @@ Would you like assistance with any other aspect of your data or analysis?
 -------------------------------------------------------------------------------
 
 <b>
-You can use other classification models but you have to consider the imbalance classes in our case
+Prompt 4: You can use other classification models but you have to consider the imbalance classes in our case
 </b>
 
 -----
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 4:</b>
 ```
 Absolutely, class imbalance is an important factor to consider when training a classification model. There are several strategies we can use to address this issue:
 
@@ -125,11 +125,11 @@ Do you want to proceed with further analysis or try a different model?
 -------------------------------------------------------------------------------
 
 <b>
-Generate the confusion matrix from the above results, labels 0 and 1 represent healthy and PLB disease
+Prompt 5: Generate the confusion matrix from the above results, labels 0 and 1 represent healthy and PLB disease
 </b>
 
 ------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 5:</b>
 
 <p align="center">
   <img src="img/cm1.png" height="300"> 
@@ -171,12 +171,12 @@ Let me know if there's anything else you'd like to do with this data or any othe
 ```
 -------------------------------------------------------------------------------
 <b>
-False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
+Prompt 6: False negatives are too high, please improve this and make the classification model works better for disease samples. This needs to consider the class imbalance
 </b>
 
 ------------------------------------------------------------------------------
 
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 6:</b>
 ```
 You're right, the high number of false negatives (Type II errors) indicates that the model is not performing well on the minority class (PLB disease). This could be particularly problematic if it's crucial to correctly identify the disease.
 
@@ -217,12 +217,12 @@ Please let me know if there's anything else you'd like to do with this data or a
 -------------------------------------------------------------------------------
 
 <b>
-I am still not happy for this result due to the bad performance for disease samples, use any models you want to improve the performace for disease samples
+Prompt 7: I am still not happy for this result due to the bad performance for disease samples, use any models you want to improve the performace for disease samples
 </b>
 
 ------------------------------------------------------------------------------
 
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 7:</b>
 ```
 I understand your concerns. Detecting disease samples accurately is crucial, and we need to ensure that our model is performing well for this class.
 
@@ -253,11 +253,11 @@ Would you like me to try another approach, or is there something specific you'd 
 
 
 <b>
-Increase the class weight of disease samples for the gradient boosting classifier to improve the performance
+Prompt 8: Increase the class weight of disease samples for the gradient boosting classifier to improve the performance
 </b>
 
 ------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 8:</b>
 ```
 I apologize for the confusion, but as of my last training data in September 2021, the Gradient Boosting Classifier in scikit-learn doesn't support class weights directly. This is unlike some other classifiers such as Random Forests or SVMs.
 
@@ -287,11 +287,11 @@ Please let me know if there's anything else you'd like to do with this data or a
 
 
 <b>
-Build a metric table to list all the models you have tried and conclude which model is the best
+Prompt 9: Build a metric table to list all the models you have tried and conclude which model is the best
 </b>
 
 ------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 9:</b>
 ```
 I apologize for the oversight. I forgot to import the `precision_score`, `recall_score`, `f1_score`, and `accuracy_score` functions from the `sklearn.metrics` module. Let's correct this and proceed with creating the metrics table.
 
@@ -316,11 +316,11 @@ Please let me know if there's anything else you'd like to do with this data or a
 -------------------------------------------------------------------------------
 
 <b>
-Can you include the PLSDA classification result to the above table and update the conclusion
+Prompt 10: Can you include the PLSDA classification result to the above table and update the conclusion
 </b>
 
 ------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 10:</b>
 ```
 I apologize for the confusion, but as I mentioned earlier, the PLS-DA model we initially attempted to implement did not work as expected due to the lack of support for sample weights in scikit-learn's PLSRegression model. This is why it was not included in the summary table.
 
@@ -333,11 +333,11 @@ If you have any other requests or need further clarification, please let me know
 
 
 <b>
-I mean PLSDA result instead of weighted PLSDA
+Prompt 11: I mean PLSDA result instead of weighted PLSDA
 </b>
 
 ------------------------------------------------------------------------------
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 11:</b>
 ```
 I apologize for misunderstanding your request earlier. You're right; we can include the results from the PLS-DA model. I'll calculate the metrics for the PLS-DA model and add them to the summary table. Please note that the PLS-DA model we used was not specifically adjusted for class imbalance. Let's proceed with this.
 
@@ -368,12 +368,12 @@ Please let me know if there's anything else you'd like to do with this data or a
 
 
 <b>
-Can you try deep learning model to improve the results
+Prompt 12: Can you try deep learning model to improve the results
 </b>
 
 ------------------------------------------------------------------------------
 
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 12:</b>
 ```
 Sure, we can use a deep learning model to classify the data. Deep learning models, especially neural networks, can capture complex patterns and could potentially improve the performance.
 
@@ -393,12 +393,12 @@ Please let me know how you would like to proceed.
 -------------------------
 
 <b>
-I would like to know the importance of wavelengths for classification, can you list a couple of important wavelengths to classify samples 
+Prompt 13: I would like to know the importance of wavelengths for classification, can you list a couple of important wavelengths to classify samples 
 </b>
 
 ------------------------------------------------------------------------------
 
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 13:</b>
 ```
 Feature importance can be a very useful way to understand which variables (in this case, wavelengths) are most informative for a given model. 
 
@@ -441,12 +441,12 @@ Please let me know if you'd like any further information or analysis.
 
 
 <b>
-How about the important wavelengths for random forest
+Prompt 14: How about the important wavelengths for random forest
 </b>
 
 ------------------------------------------------------------------------------
 
-<b>The GPT Output:</b>
+<b>The ChatGPT4 Output 14:</b>
 
 ```python
 # Initialize the Random Forest Classifier
@@ -503,7 +503,7 @@ Please let me know if you'd like any further information or analysis.
 
 
 <b>
-Can you shuffle the data split and average the results to avoid bias from data splitting 
+Prompt 15: Can you shuffle the data split and average the results to avoid bias from data splitting 
 </b>
 
 ------------------------------------------------------------------------------
