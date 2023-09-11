@@ -1,9 +1,9 @@
 
-<h1 align="center">PlantsGPT 💬 + Code interpreter 💻 Fine-tunning tutorials</h1>
+<h1 align="center">PlantsGPT 💬 + Code interpreter 💻 Fine-tuning tutorials</h1>
 
 ## 👋 brief
 
-🔥🔥🔥 The PlantsGPT repository serves as a tutorial for people to test and share interesting prompting examples for large language models (LLMs) for plant science. We aim to push GPT + Code Interpreter to its limits, show you what's possible and unlock your creativity in plant science!
+🔥🔥🔥 The PlantsGPT repository serves as a tutorial for people to test and share interesting prompting examples for large language models (LLMs) for plant science. We aim to push GPT + Code Interpreter to its limits, show you what's possible and unlock your creativity in plant science! Though our examples are based on ChatGPT4, we provide a tutorial for fine-tuning of a LLM like LlaMa to develop PlantsGPT.
 
 🔥🔥🔥 We currently focus on OpenAI's [GPT-4](https://openai.com/gpt-4), but we also welcome examples from other LLMs (for example open-sourced models like MetaAI's [Llama 2](https://ai.meta.com/llama/) or others with API access such as [GPT-3](https://openai.com/api/) and CodeX).
 
@@ -75,6 +75,15 @@ The list below contains links to the different applications and their correspond
 
 * [GPT4 - Research & Education](examples//metadata/research_education.md)
 * We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
+* 
+## 💻 Fine-tunning LLMs instructions for PlantsGPT Development 
+
+* In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT.  
+
+
+
+
+
 
 ## 💻 Related resources
 
