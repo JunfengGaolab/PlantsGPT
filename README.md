@@ -59,7 +59,7 @@ number = {lincoln-2023-8},
 -->
 ## 💻 Fine-Tuning Instruction for PlantsGPT development
 
-* [Fine-tuning instruction](examples//PlantsGPT/Fine_tuning_LLMs.md)
+* [Fine-tuning instruction](examples//PlantsGPT/Fine_tuning_LLM.md)
 * In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT. 
 
 
