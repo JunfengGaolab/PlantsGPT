@@ -57,6 +57,12 @@ number = {lincoln-2023-8},
 }
 ```
 -->
+## 💻 Fine-Tuning Instruction for PlantsGPT development
+
+* [Fine-tuning instruction](examples//PlantsGPT/Fine_tuning_LLMs.md)
+* In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT. 
+
+
 ## 💻 ChatGPT Prompting Guides & Examples
 
 The list below contains links to the different applications and their corresponding prompt examples in plant science. We welcome contributions to this repository to add more categories and examples in plant science. Please submit your prompt examples to the [Discussions](https://github.com/JunfengGaolab/PlantsGPT/discussions) page, or submit a pull request with your category and examples.
@@ -76,10 +82,7 @@ The list below contains links to the different applications and their correspond
 * [GPT4 - Research & Education](examples//metadata/research_education.md)
 * We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 * 
-## 💻 LLMs Fine-tunning Instructions for PlantsGPT Development 
-
-* [Fine-tuning instruction](examples//PlantsGPT/Fine_tuning_LLMs.md)
-* In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT.  
+ 
 
 
 
