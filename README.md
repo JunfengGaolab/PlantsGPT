@@ -1,5 +1,5 @@
 
-<h1 align="center">PlantsGPT 💬 + Code interpreter 💻 Fine-tuning tutorials</h1>
+<h1 align="center">PlantsGPT 💬 + Code interpreter 💻 + Fine-tuning tutorials</h1>
 
 ## 👋 Brief
 
