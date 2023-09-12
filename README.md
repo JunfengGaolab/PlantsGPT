@@ -77,7 +77,8 @@ The list below contains links to the different applications and their correspond
 * We welcome contributions to this repository to add more examples. Please submit a pull request with your examples.
 * 
 ## 💻 LLMs Fine-tunning Instructions for PlantsGPT Development 
-* [Fine-tuning instruction](examples//PlantsGPT /Fine-tuning LLMs.md)
+
+* [Fine-tuning instruction](examples//PlantsGPT/Fine_tuning_LLMs.md)
 * In this section we provide an instruction for fine-tuning LLMs such as LlaMa2 for PlantsGPT.  
 
 
